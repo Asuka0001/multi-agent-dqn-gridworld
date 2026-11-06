@@ -1,0 +1,61 @@
+Test set: all 1,593,900 start states; mean lower bound 2.56 rounds
+   random: {'n_games': 1593900, 'success_rate_15': 0.29510446075663466, 'solve_rate': 0.838852500156848, 'mean_rounds': 22.434380392013146, 'mean_excess_over_lb': 19.931021123416006, 'optimal_rate': 0.005684170901562206, 'worst_rounds': 51}  (46s)
+heuristic: {'n_games': 1593900, 'success_rate_15': 0.9854633289415898, 'solve_rate': 0.9854633289415898, 'mean_rounds': 3.550586669892343, 'mean_excess_over_lb': 0.9801913759844149, 'optimal_rate': 0.31399460442938704, 'worst_rounds': 51}  (7s)
+Training seed 0 ...
+  seed 0 round   1000 ep   1389 eps 0.87 | val success15 44.880% excess 2.657 | 2s
+  seed 0 round   2000 ep   3438 eps 0.75 | val success15 70.180% excess 1.553 | 4s
+  seed 0 round   3000 ep   7073 eps 0.62 | val success15 82.900% excess 1.388 | 6s
+  seed 0 round   4000 ep  12507 eps 0.49 | val success15 99.460% excess 0.654 | 8s
+  seed 0 round   5000 ep  19257 eps 0.37 | val success15 99.660% excess 0.696 | 10s
+  seed 0 round   6000 ep  27084 eps 0.24 | val success15 99.840% excess 0.653 | 12s
+  seed 0 round   7000 ep  35753 eps 0.11 | val success15 99.980% excess 0.830 | 14s
+  seed 0 round   8000 ep  44574 eps 0.05 | val success15 99.980% excess 1.006 | 16s
+  seed 0 round   9000 ep  53263 eps 0.05 | val success15 100.000% excess 0.984 | 18s
+  seed 0 round  10000 ep  62186 eps 0.05 | val success15 99.980% excess 0.870 | 20s
+  seed 0 round  11000 ep  71289 eps 0.05 | val success15 100.000% excess 0.839 | 22s
+  seed 0 round  12000 ep  80283 eps 0.05 | val success15 99.980% excess 0.865 | 24s
+  seed 0 round  13000 ep  89249 eps 0.05 | val success15 100.000% excess 0.962 | 25s
+  seed 0 round  14000 ep  98145 eps 0.05 | val success15 100.000% excess 0.938 | 27s
+  seed 0 round  15000 ep 107053 eps 0.05 | val success15 99.940% excess 0.928 | 29s
+      dqn: {'n_games': 1593900, 'success_rate_15': 0.9999818056339795, 'solve_rate': 1.0, 'mean_rounds': 3.40293180249702, 'mean_excess_over_lb': 0.8396831670744714, 'optimal_rate': 0.33825208607817303, 'worst_rounds': 38, 'seed': 0, 'eval_seconds': 5.369109153747559, 'episodes': 107053, 'episodes_to_98pct': 9580, 'train_seconds': 29.29876470565796}
+Training seed 1 ...
+  seed 1 round   1000 ep   1282 eps 0.87 | val success15 21.700% excess 1.788 | 2s
+  seed 1 round   2000 ep   3264 eps 0.75 | val success15 62.940% excess 1.463 | 4s
+  seed 1 round   3000 ep   6617 eps 0.62 | val success15 83.860% excess 1.332 | 6s
+  seed 1 round   4000 ep  11891 eps 0.49 | val success15 99.360% excess 0.705 | 8s
+  seed 1 round   5000 ep  18654 eps 0.37 | val success15 99.800% excess 0.680 | 10s
+  seed 1 round   6000 ep  26582 eps 0.24 | val success15 99.920% excess 0.610 | 12s
+  seed 1 round   7000 ep  35386 eps 0.11 | val success15 99.880% excess 0.689 | 14s
+  seed 1 round   8000 ep  44560 eps 0.05 | val success15 99.960% excess 0.872 | 16s
+  seed 1 round   9000 ep  53433 eps 0.05 | val success15 99.980% excess 1.025 | 18s
+  seed 1 round  10000 ep  62248 eps 0.05 | val success15 100.000% excess 0.845 | 20s
+  seed 1 round  11000 ep  71447 eps 0.05 | val success15 100.000% excess 0.784 | 22s
+  seed 1 round  12000 ep  80631 eps 0.05 | val success15 100.000% excess 0.813 | 24s
+  seed 1 round  13000 ep  89720 eps 0.05 | val success15 100.000% excess 0.887 | 26s
+  seed 1 round  14000 ep  98764 eps 0.05 | val success15 100.000% excess 0.897 | 28s
+  seed 1 round  15000 ep 107710 eps 0.05 | val success15 99.980% excess 0.921 | 30s
+      dqn: {'n_games': 1593900, 'success_rate_15': 0.9999987452161365, 'solve_rate': 0.9999987452161365, 'mean_rounds': 3.3492017682436392, 'mean_excess_over_lb': 0.7859574452066569, 'optimal_rate': 0.3622027730723383, 'worst_rounds': 51, 'seed': 1, 'eval_seconds': 5.168315172195435, 'episodes': 107710, 'episodes_to_98pct': 11891, 'train_seconds': 29.5220890045166}
+Training seed 2 ...
+  seed 2 round   1000 ep   1393 eps 0.87 | val success15 17.960% excess 2.219 | 2s
+  seed 2 round   2000 ep   3564 eps 0.75 | val success15 61.780% excess 1.406 | 4s
+  seed 2 round   3000 ep   7305 eps 0.62 | val success15 98.040% excess 0.870 | 6s
+  seed 2 round   4000 ep  12743 eps 0.49 | val success15 99.860% excess 0.636 | 7s
+  seed 2 round   5000 ep  19478 eps 0.37 | val success15 99.960% excess 0.659 | 9s
+  seed 2 round   6000 ep  27384 eps 0.24 | val success15 99.960% excess 0.644 | 11s
+  seed 2 round   7000 ep  36067 eps 0.11 | val success15 100.000% excess 0.771 | 13s
+  seed 2 round   8000 ep  45004 eps 0.05 | val success15 99.980% excess 0.958 | 14s
+  seed 2 round   9000 ep  53860 eps 0.05 | val success15 99.980% excess 0.925 | 16s
+  seed 2 round  10000 ep  62999 eps 0.05 | val success15 100.000% excess 0.801 | 18s
+  seed 2 round  11000 ep  72237 eps 0.05 | val success15 100.000% excess 0.793 | 20s
+  seed 2 round  12000 ep  81477 eps 0.05 | val success15 100.000% excess 0.803 | 21s
+  seed 2 round  13000 ep  90660 eps 0.05 | val success15 100.000% excess 0.834 | 23s
+  seed 2 round  14000 ep  99790 eps 0.05 | val success15 100.000% excess 0.829 | 25s
+  seed 2 round  15000 ep 108805 eps 0.05 | val success15 99.940% excess 0.838 | 27s
+      dqn: {'n_games': 1593900, 'success_rate_15': 0.9999341238471673, 'solve_rate': 0.9999360060229625, 'mean_rounds': 3.332242856372012, 'mean_excess_over_lb': 0.7691162870075129, 'optimal_rate': 0.3721952443691574, 'worst_rounds': 51, 'seed': 2, 'eval_seconds': 4.774397850036621, 'episodes': 108805, 'episodes_to_98pct': 5203, 'train_seconds': 26.698864936828613}
+
+=== Summary on all 1,593,900 start states ===
+policy           success<=15     mean rounds    excess vs LB            = LB
+random                0.2951          22.434          19.931          0.0057
+heuristic             0.9855           3.551           0.980          0.3140
+dqn              1 ± 2.7e-05    3.361 ± 0.03   0.7983 ± 0.03  0.3576 ± 0.014   (3 seeds)
+Saved results/ablations/no_meet_reward/results.json
